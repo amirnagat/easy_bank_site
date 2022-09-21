@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- nav container -->
+    <nav class="container-fluid position-fixed bg-light  p-2 nav-container">
+      <div class="container">
+        <div class="row align-items-baseline">
+            <!-- nav bar logo -->
+          <div class="col-6 col-md-2"><img src="./images/logo.svg" alt="logo"/></div>
+          <!-- hamburger icon when is on mobile screen  -->
+          <div class="menu-icon  d-md-none d-flex col-2 justify-content-end col-6"><i class="fa-solid fa-bars"></i></div>
+           <!-- nav bar middile text -->
+          <div
+            class="col-8 text-center d-flex justify-content-center justify-content-evenly d-none d-md-flex">
+            <a class="text-secondary text-decoration-none" href="#">Home</a>
+            <a class="text-secondary text-decoration-none" href="#">About</a>
+            <a class="text-secondary text-decoration-none" href="#">Contact</a>
+            <a class="text-secondary text-decoration-none" href="#">Blog</a>
+            <a class="text-secondary text-decoration-none" href="#">Careers</a> 
+          </div>
+          <!-- nav bar button -->
+          <div class="col-2 d-none d-md-flex">
+            <button class="nav-button rounded-pill">Request invite</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- START header-container  -->
+    <div class="header-container  container">
+     <div class="row row-media align-items-baseline flex-column-reverse flex-md-row">
+       <!-- left container  -->
+       <div class="left-container p-0 col-12 col-md-5">
+         <!--header-container left container-->
+         <div class="container">
+         <!--header-container  left container tittle -->
+        <h1 class="fs-1">Next generation digital </h1>
+         <!-- left container para -->
+        <p class="fs-4 bg-light">Take your finalcial life online. Your Easybank account will be a one-stop-shop for spending. saving, budgeting, investing, and much more.</p>
+         <!--header-container  left container button -->
+        <button class="header-btn">Request invite</button>
+      </div>
+       </div>
+       <!-- right container -->
+       <div class="right-container p-0 col-12 col-md-7 overflow-hidden">
+         <!-- right container bg-img -->
+        <img class="bg-img position-relative " src="./images/color.back-ground.png" alt="">
+        <!-- right container phone-img -->
+        <img class="phone-img position-relative" src="./images/image-mockups.png" alt="">
+       </div>
+     </div>
+    </div>
+    <!-- END header container -->
+    <!-- START main-container -->
+      <main class="main-container container" style="height: 1000px;" >
+            <!--START seaction one -->
+          <!-- main-container text -->
+          <div class="main-text">
+            <h1 class="fs-3">Why choose Easybank</h1>
+            <p class="fs-6">
+              We leverage Open Banking to turn your bank account into your
+              financial hub. Control your finances like never before.
+            </p>
+          </div>
+              <!-- main 4 first blocks with circle imgs -->
+          <div class="main-blocks row ">
+            <!-- seaction one block one -->
+            <div class="block-one col-md-3">
+              <img
+                src="./images/icon-online.svg"
+                alt=""
+              />
+              <!-- block text -->
+              <h3>Online Banking</h3>
+              <p class="fs-5">
+                Our modern web and mobile applications allow you to keep track of
+                your finances wherever you are in the world.
+              </p>
+            </div>
+            <!-- seaction one block two -->
+            <div class="block-one col-md-3">
+              <img
+                src="./images/icon-budgeting.svg"
+                alt=""
+              />
+              <!-- block text -->
+              <h3>Simple Budgeting</h3>
+              <p class="fs-5">
+                See exactly where your money goes each month. Receive notifications when you're close to your hitting limits.
+              </p>
+            </div>
+            <!-- seaction one block three -->
+            <div class="block-one col-md-3">
+              <img
+                src="./images/icon-onboarding.svg"
+                alt=""
+              />
+              <!-- block text -->
+              <h3>Fast onboarding</h3>
+              <p class="fs-5">
+                We dont't do branches. Open your account in minutes online and start taking control of your finances right away.
+              </p>
+            </div>
+            <!-- seaction one block four -->
+            <div class="block-one col-md-3">
+              <img
+                src="./images/icon-api.svg"
+                alt=""
+              />
+              <!-- block text -->
+              <h3>Open api</h3>
+              <p class="fs-5">
+                Manage your saving, investments, pensions, and much more from one account. Tracking your money has never been easier.
+              </p>
+            </div>  
+    </div>
+    <!-- START seaction two -->
+    <div class="seaction-two">
+        <div class="container " style="height: 80vh;">
+          <!-- seaction two first tittle -->
+       <div class="seaction-two-text">
+      <h2>Latest Articles</h2>
+    </div>
+    <div class="row " style="height: 80vh;">
+      <!-- seaction two box one -->
+    <div class="box-one  col-md-3">
+      <img src="./images/image-currency.jpg" width="80%" height="50%" alt="">
+      <p>By Claire Robinson</p>
+      <h6 class="fs-5">Receive money in any currency with no fees</h6>
+      <p class="fs-6">The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …</p>
+    </div>
+    <!--  seaction two box two -->
+    <div class="box-one  col-md-3">
+      <img src="./images/image-restaurant.jpg" width="80%" height="50%" alt="">
+      <p>By Wilson Hutton</p>
+      <h6 class="fs-5">Treat yourself without worrying about money</h6>
+      <p class="fs-6">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …</p>
+    </div>
+    <!--  seaction two box three -->
+    <div class="box-one col-md-3">
+      <img src="./images/image-plane.jpg" width="80%" height="50%" alt="">
+      <p>By Wilson Hutton</p>
+      <h6 class="fs-5">Take your Easybank card wherever you go</h6>
+      <p class="fs-6">We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …</p>
+    </div>
+    <!--  seaction two box four -->
+    <div class="box-one col-md-3">
+      <img src="./images/image-confetti.jpg" width="80%" height="50%" alt="">
+      <p>By Claire Robinson</p>
+      <h6 class="fs-5">Our invite-only Beta accounts are now live!
+      </h6>
+      <p class="fs-6">TAfter a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- END seaction two boxes -->
+  </main>
+  <!-- END main -->
+  <!-- START footer -->
+  <footer>
+    <div class="all-footer container-fluied" >
+      <div class="container footer-container">
+        <div class="row">
+          <div class="col-md-3 border-danger mt-3">
+            <!-- footer first list logo and brands icons -->
+          <ul class="list-unstyled">
+            <li><img src="./images/logo-white.svg" alt=""></li>
+            <li class="mt-3"><img src="./images/icon-twitter.svg" alt="icon-twitter">
+              <img src="./images/icon-youtube.svg" alt="icon-youtube">
+            <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          <img src="./images/icon-facebook.svg" alt="icon-facebook">
+        <img src="./images/icon-pinterest.svg" alt="icon-pinterest"></li>
+          </ul>
+         <!-- END first list -->
+          </div>
+          <div class="col-md-3 border-danger mt-3 ">
+            <!-- footer second list  -->
+            <ul class="list-unstyled">
+              <a href="#" style="text-decoration: none; color: black;"><li>About us</li></a>
+              <a href="#" style="text-decoration: none; color: black;"><li>Contact</li></a>
+              <a href="#" style="text-decoration: none; color: black;"><li>Blog</li></a>
+            </ul>
+          </div>
+          <div class="col-md-3 border-danger mt-3">
+            <!-- footer third list -->
+            <ul class="list-unstyled">
+             <a href="#" style="text-decoration: none; color: black;"><li>Careers</li></a>  
+             <a href="#" style="text-decoration: none; color: black;"><li>Support</li></a>  
+             <a href="#" style="text-decoration: none; color: black;"><li>Blog</li></a>
+            </ul>
+          </div>
+          <div class="col-md-3 border-danger mt-3">
+            <!-- footer fourth list button and copyright -->
+            <ul class="list-unstyled">
+              <li><button class="footer-btn" style=" background: linear-gradient(90deg, #4a8be4 0%, #53ebaa 0%, #53e9eb 100%);
+                border: none;
+                color: white;
+                font-size: 15px;
+                height: 33px;
+                width: 120px;
+                border-radius: 10px;">Request Invite</button></li>
+              <li class="mt-3">© Easybank. All Rights Reserved</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  </body>
+</html>

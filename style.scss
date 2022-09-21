@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+// nav containr 
+.nav-container {
+  z-index: 3;
+}
+
+.container-fluid {
+  .container {
+    .row {
+      //nav bar  middel text hover
+      a:hover {
+        border-bottom: #53ebaa 2px solid;
+        
+      }
+    }
+  }
+}
+// nav bar right button deatils
+.container-fluid .container .row .nav-button {
+  background: linear-gradient(90deg, #4a8be4 0%, #53ebaa 0%, #53e9eb 100%);
+  border: none;
+  color: white;
+  font-size: 15px;
+  height: 33px;
+  width: 120px;
+}
+// END NAV
+// START header container
+.header-container {
+  height: 620px;
+  width: 100%;
+  // header left container 
+  .left-container {
+    height: 240px;
+    // header button
+    .header-btn{
+      background: linear-gradient(90deg, #4a8be4 0%, #53ebaa 0%, #53e9eb 100%);
+      border: none;
+      color: white;
+      font-size: 15px;
+      height: 33px;
+      width: 120px;
+      border-radius: 10px;
+    }
+  }
+//  header right container 
+  .right-container {
+    height: 900px;
+    // header background img
+    .bg-img {
+      width: 100%;
+      z-index: 1;
+      
+    }
+    // header phone img
+    .phone-img {
+      width: 100%;
+      z-index: 2;
+      bottom: 71%;
+      right: -62px;
+      
+    
+    }
+  }
+}
+// main container height
+.main-container{
+  // background-color: #53ebaa;
+  height: 1219px;
+}
+.main-container .main-text{
+  margin-top: 87px;
+}
+.main-container .main-blocks{
+  margin-top: 43px;
+  background-color: #F3F4F6;
+}
+// seaction two color effect 
+.main-container .seaction-two .box-one h6:hover{
+  color: #53ebaa;
+}
+
+// footer background color
+footer{
+  background-color: #2D314D
+
+}
+// footer list text color
+.footer-container ul li{
+  color: white;
+}
+// footer list effect
+.footer-container ul a li:hover{
+  color: #53ebaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////// START media quary/////////
+
+ @media screen and (max-width:768px) {
+   .header-container{
+     
+     .right-container{
+       height: 425px;
+       
+       .phone-img{
+        width: 100%;
+        z-index: 2;
+        bottom: 101%;
+        right: -4px;
+       }
+     }
+     .left-container{
+       text-align: center;
+     }
+   }
+ 
+// main container
+.main-container{
+  height: 2571px; 
+    .main-text{
+   height: 270px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   height: 228px;
+    justify-content: center;
+}
+.main-blocks{
+  text-align: center;
+}
+}
+
+  //  seaction two
+   .seaction-two{
+    //  seaction two text
+     .seaction-two-text{
+       text-align: center;
+     }
+     .box-one{
+       text-align: center;
+     }
+   }
+  .footer-container{
+    text-align: center;
+    // margin-top: 145vh;
+  }
+  .all-footer{
+    margin-top: 195vh;
+  }
+}
+
+  
+  
+
+
+
+  

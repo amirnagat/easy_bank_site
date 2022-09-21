@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.nav-container {
+  z-index: 3;
+}
+
+.container-fluid .container .row a:hover {
+  border-bottom: #53ebaa 2px solid;
+}
+
+.container-fluid .container .row .nav-button {
+  background: -webkit-gradient(linear, left top, right top, from(#4a8be4), color-stop(0%, #53ebaa), to(#53e9eb));
+  background: linear-gradient(90deg, #4a8be4 0%, #53ebaa 0%, #53e9eb 100%);
+  border: none;
+  color: white;
+  font-size: 15px;
+  height: 33px;
+  width: 120px;
+}
+
+.header-container {
+  height: 620px;
+  width: 100%;
+}
+
+.header-container .left-container {
+  height: 240px;
+}
+
+.header-container .left-container .header-btn {
+  background: -webkit-gradient(linear, left top, right top, from(#4a8be4), color-stop(0%, #53ebaa), to(#53e9eb));
+  background: linear-gradient(90deg, #4a8be4 0%, #53ebaa 0%, #53e9eb 100%);
+  border: none;
+  color: white;
+  font-size: 15px;
+  height: 33px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.header-container .right-container {
+  height: 900px;
+}
+
+.header-container .right-container .bg-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.header-container .right-container .phone-img {
+  width: 100%;
+  z-index: 2;
+  bottom: 71%;
+  right: -62px;
+}
+
+.main-container {
+  height: 1219px;
+}
+
+.main-container .main-text {
+  margin-top: 87px;
+}
+
+.main-container .main-blocks {
+  margin-top: 43px;
+  background-color: #F3F4F6;
+}
+
+.main-container .seaction-two .box-one h6:hover {
+  color: #53ebaa;
+}
+
+footer {
+  background-color: #2D314D;
+}
+
+.footer-container ul li {
+  color: white;
+}
+
+.footer-container ul a li:hover {
+  color: #53ebaa;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container .right-container {
+    height: 425px;
+  }
+  .header-container .right-container .phone-img {
+    width: 100%;
+    z-index: 2;
+    bottom: 101%;
+    right: -4px;
+  }
+  .header-container .left-container {
+    text-align: center;
+  }
+  .main-container {
+    height: 2571px;
+  }
+  .main-container .main-text {
+    height: 270px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 228px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-container .main-blocks {
+    text-align: center;
+  }
+  .seaction-two .seaction-two-text {
+    text-align: center;
+  }
+  .seaction-two .box-one {
+    text-align: center;
+  }
+  .footer-container {
+    text-align: center;
+  }
+  .all-footer {
+    margin-top: 195vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
